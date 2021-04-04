@@ -1,0 +1,40 @@
+{
+  "name": "@yszk0123/refact",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/yszk0123/refact.git",
+  "author": "Yuji Suzuki <y0suzuki0123@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "refact": "cli.js"
+  },
+  "files": [
+    "cli.js",
+    "build"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "test": "jest",
+    "clean": "rimraf build",
+    "build": "yarn clean && yarn tsc"
+  },
+  "dependencies": {
+    "meow": "^9.0.0",
+    "ts-morph": "^10.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "@types/mock-fs": "^4.13.0",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "globby": "^11.0.3",
+    "jest": "^26.6.3",
+    "mock-fs": "^4.13.0",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.5.4",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}

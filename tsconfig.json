@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Basic Options */
+    // "incremental": true,                         /* Enable incremental compilation */
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    // "declaration": true,                         /* Generates corresponding '.d.ts' file. */
+    // "declarationMap": true,                      /* Generates a sourcemap for each corresponding '.d.ts' file. */
+    // "sourceMap": true,                           /* Generates corresponding '.map' file. */
+    "rootDir": "./src",
+    "outDir": "./build",
+    // "tsBuildInfoFile": "./",                     /* Specify file to store incremental compilation information */
+    // "noEmit": true,                              /* Do not emit outputs. */
+    // "isolatedModules": true,                     /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    // "noImplicitReturns": true,                   /* Report error when not all code paths in function return a value. */
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    // "noPropertyAccessFromIndexSignature": true,  /* Require undeclared properties from index signatures to use element accesses. */
+
+    /* Module Resolution Options */
+    "esModuleInterop": true,
+
+    /* Advanced Options */
+    "skipLibCheck": true /* Skip type checking of declaration files. */,
+    "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */
+  },
+  "include": ["src"]
+}
